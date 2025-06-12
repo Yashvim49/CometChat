@@ -4,6 +4,7 @@ import "../style/Home.css"
 import Partner from './Partner';
 import Programs from './Programs';
 import Faq from './Faq';
+import Footer from './Footer';
 
 const Home = () => {
      const [isNavOpen, setIsNavOpen] = useState(false);
@@ -15,7 +16,7 @@ const Home = () => {
             <div className="partner-page">
                 <nav className="navbar navbar-expand-lg navbar-dark px-4 py-3 ">
                     <div className="container-fluid">
-                        <Link className="navbar-brand" to="#">comet<span className="fw-bold">Chat</span></Link>
+                        <span className="navbar-brand" to="#">comet<span className="fw-bold">Chat</span></span>
 
                         <div className="d-flex gap-3 align-items-center order-lg-2 ms-auto">
                             <Link to="#" className="text-white text-decoration-none">Log in</Link>
@@ -29,11 +30,11 @@ const Home = () => {
                         {/* Menu */}
                         <div className={`collapse navbar-collapse justify-content-center order-lg-1 ${isNavOpen ? 'show' : ''}`} id="navbarNav" >
                             <ul className="navbar-nav gap-3">
-                                <li className="nav-item"><a className="nav-link" href="#">Platform</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#">Solutions</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#">Developers</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#">Resources</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#">Pricing</a></li>
+                                <li className="nav-item"><Link className="nav-link" to="#">Platform</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="#">Solutions</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="#">Developers</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="#">Resources</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="#">Pricing</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -76,6 +77,10 @@ const Home = () => {
             {/* faq section faq.js*/}
             <Faq/>
             {/* over faq */}
+
+             {/* footer section footer.js*/}
+            <Footer/>
+            {/* over footer */}
         </>
   )
 }

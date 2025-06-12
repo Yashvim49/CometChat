@@ -1,5 +1,5 @@
 .partner-page {
-  background: url('https://img.freepik.com/free-vector/dark-bokeh-light-background_53876-99914.jpg') no-repeat center center;
+  background: url('../../public/logos/bg.png') no-repeat center center;
   background-size: cover;
   min-height: 90vh;
 
@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 55px 10%;  
+  padding: 55px 15%;  
   flex-wrap: wrap;
 }
 
@@ -216,58 +216,6 @@
   margin-bottom: 20px;
 }
 
-/* //faq csss */
-.faq-section {
-  background-color: #0d1117; /* Dark background */
-  color: #ffffff; /* White text */
-}
-
-.faq-section .subheading {
-  font-size: 18px;
-  font-weight: 500;
-  color: #ffc107;
-}
-
-.faq-section h2 {
-  font-size: 32px;
-  color: #ffffff;
-  line-height: 1.4;
-}
-
-.custom-accordion .accordion-item {
-  background-color: #161b22;
-  border: 1px solid #2d333b;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-.custom-accordion .accordion-button {
-  background-color: #161b22;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  padding: 1rem 1.25rem;
-  box-shadow: none;
-  border: none;
-  transition: background-color 0.3s ease;
-}
-
-.custom-accordion .accordion-button:not(.collapsed) {
-  background-color: #21262d;
-}
-
-.custom-accordion .accordion-button:focus {
-  box-shadow: none;
-}
-
-.custom-accordion .accordion-body {
-  background-color: #21262d;
-  color: #c9d1d9;
-  padding: 1rem 1.25rem;
-  border-top: 1px solid #30363d;
-}
 
 
 @media (max-width: 768px) {
