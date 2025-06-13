@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CometChat/static/css/main.c848f284.css",
+    "main.js": "/CometChat/static/js/main.87fc9894.js",
+    "static/js/453.4fe01b86.chunk.js": "/CometChat/static/js/453.4fe01b86.chunk.js",
+    "static/media/bg.png": "/CometChat/static/media/bg.05685045bd18051d5916.png",
+    "static/media/footer-background.png": "/CometChat/static/media/footer-background.5b4a61419bdc8e6d3057.png",
+    "index.html": "/CometChat/index.html",
+    "main.c848f284.css.map": "/CometChat/static/css/main.c848f284.css.map",
+    "main.87fc9894.js.map": "/CometChat/static/js/main.87fc9894.js.map",
+    "453.4fe01b86.chunk.js.map": "/CometChat/static/js/453.4fe01b86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c848f284.css",
+    "static/js/main.87fc9894.js"
+  ]
+}
